@@ -35,8 +35,11 @@ INSTRUÇÕES DE EXECUÇÃO
 Os testes unitários foram escritos com JUnit e estão disponíveis nas pastas src/test/java de cada um dos projetos.
 
 Executando através do Eclipse:
+
 . Rodar a classe br.com.zup.teste.xyinc.web.config.WebApplication. Neste caso, através do Spring Boot, um container Tomcat é por padrão iniciado, com a aplicação completa rodando. 
+
 . Para cadastrar um novo modelo, acesse a URL http://localhost:8080/ no browser. Preencha os dados na tela.
+
 . Criado um modelo, por exemplo 'teste', com atributos 'teste1' e 'teste2', chamar as URLs abaixo para efetuar as operações, utilizando o cabeçalho Content-Type: Application/JSON na requisição HTTP:
 
 
@@ -60,9 +63,13 @@ Exemplo de JSON:
 }
 	
 Executando através do Tomcat:
+
 . Execute mvn clean install no projeto xyinc
+
 . Copie o arquivo xyinc-web-1.0.war do diretório target do projeto xyinc-web para o diretório webapps de uma instalação do Tomcat.
+
 . Para cadastrar um novo modelo, acesse a URL http://localhost:8080/xyinc-web-1.0/ no browser. Preencha os dados na tela.
+
 . Criado um modelo, por exemplo 'teste', com atributos 'teste1' e 'teste2', chamar as URLs abaixo para efetuar as operações,  utilizando o cabeçalho Content-Type: Application/JSON na requisição HTTP:
 
 
