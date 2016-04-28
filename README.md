@@ -39,13 +39,19 @@ Executando através do Eclipse:
 . Para cadastrar um novo modelo, acesse a URL http://localhost:8080/ no browser. Preencha os dados na tela.
 . Criado um modelo, por exemplo 'teste', com atributos 'teste1' e 'teste2', chamar as URLs abaixo para efetuar as operações, utilizando o cabeçalho Content-Type: Application/JSON na requisição HTTP:
 
+
 INSERT - http://localhost:8080/teste/ - Método POST
+
 SELECT ALL - http://localhost:8080/teste/ - Método GET
+
 SELECT ONE - http://localhost:8080/teste/{id} - Método GET
+
 UPDATE - http://localhost:8080/teste/{id} - Método PUT
+
 DELETE - http://localhost:8080/teste/{id} - Método DELETE
 	
 Exemplo de JSON:
+
 {"name": "teste",
 	"fields": [
 		{"name": "teste1", "value": "teste"},
@@ -59,13 +65,20 @@ Executando através do Tomcat:
 . Para cadastrar um novo modelo, acesse a URL http://localhost:8080/xyinc-web-1.0/ no browser. Preencha os dados na tela.
 . Criado um modelo, por exemplo 'teste', com atributos 'teste1' e 'teste2', chamar as URLs abaixo para efetuar as operações,  utilizando o cabeçalho Content-Type: Application/JSON na requisição HTTP:
 
+
 INSERT - http://localhost:8080/xyinc-web-1.0/teste/ - Método POST
+
 SELECT ALL - http://localhost:8080/xyinc-web-1.0/teste/ - Método GET
+
 SELECT ONE - http://localhost:8080/xyinc-web-1.0/teste/{id} - Método GET
+
 UPDATE - http://localhost:8080/xyinc-web-1.0/teste/{id} - Método PUT
+
 DELETE - http://localhost:8080/xyinc-web-1.0/teste/{id} - Método DELETE
 
+
 Exemplo de JSON:
+
 {"name": "teste",
 	"fields": [
 		{"name": "teste1", "value": "teste"},
